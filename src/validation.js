@@ -1,5 +1,8 @@
 import RSAA from './RSAA';
-import isPlainObject from 'is-plain-object';
+
+function isPlainObject(obj){
+ return obj!=null && typeof(obj)=="object" && Object.getPrototypeOf(obj)==Object.prototype;
+}
 
 /**
  * Is the given action a plain JavaScript object with an [RSAA] property?
