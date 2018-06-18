@@ -1,5 +1,5 @@
 import RSAA from './RSAA';
-import isPlainObject from 'lodash.isplainobject';
+import isPlainObject from 'is-plain-object';
 
 /**
  * Is the given action a plain JavaScript object with an [RSAA] property?
